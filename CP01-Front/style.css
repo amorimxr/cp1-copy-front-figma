@@ -85,13 +85,16 @@ main {
 
 
 .secaoJunto {
-    display: grid;
-    grid-template-columns: 1fr 538px;
+    display: flex;
     gap: 60px;
 }
 
+.secaoJunto div {
+    flex: 1;
+}
+
 .secaoImg {
-    width: 100%;
+    width: 538px;
     height: 361px;
     object-fit: cover;
 }

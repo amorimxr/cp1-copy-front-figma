@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFE9F5;
+    color: #252523;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 72px;
+}
+
+main {
+    padding: 78px 0 70px;
+}
+
+.secao+.secao {
+    margin-top: 72px;
+}
+
+.secao p+p {
+    margin-top: 24px;
+}
+
+.tituloSite,
+.titulosSecoes,
+.tituloCard {
+    font-family: "Limelight", cursive;
+    font-weight: normal;
+}
+
+.titulosSecoes {
+    font-size: 32px;
+    line-height: 54px;
+    color: #064661;
+    margin-bottom: 24px;
+}
+
+
+.topoBlue {
+    display: flex;
+    align-items: center;
+    height: 128px;
+    background-color: #064661;
+}
+
+.tituloSite {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.banner {
+    width: 100%;
+    height: 465px;
+    object-fit: cover;
+}
+
+
+.secaoJunto {
+    display: grid;
+    grid-template-columns: 1fr 538px;
+    gap: 60px;
+}
+
+.secaoImg {
+    width: 100%;
+    height: 361px;
+    object-fit: cover;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 34px;
+    margin-top: 54px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 167px;
+    padding: 0 28px;
+    background-color: #99BEDF;
+    border: 3px solid #064661;
+    border-radius: 10px;
+}
+
+.cardDestaque {
+    background-color: rgba(6, 70, 97, 0.7);
+    color: #FFFFFF;
+}
+
+.tituloCard {
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.cardPreco {
+    font-size: 20px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-top: 54px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+
+.contato {
+    margin-top: 54px;
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.contato li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.icones {
+    width: 24px;
+    height: 24px;
+}
+
+
+.rodape {
+    padding: 38px 20px;
+    background-color: #064661;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+}
